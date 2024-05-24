@@ -72,9 +72,6 @@ def identify_file(target_file, verbose):
             elif 'microsoft word 2007' in file_type.lower():
                 print("\nMost likely .docx File (2007+)\n\n\033[1m[ANALYSIS RECOMMENDATIONS]\033[0m\n\033[95mzipdump.py\033[0m for extracting zip archive components: (https://github.com/DidierStevens/DidierStevensSuite/blob/master/zipdump.py)\n\033[95mre-search.py\033[0m for de-obfuscation: (https://github.com/DidierStevens/DidierStevensSuite/blob/master/re-search.py)\n\033[95mViperMonkey\033[0m for VBA macro emulation: (https://github.com/decalage2/ViperMonkey)\n\033[95mEvilClippy\033[0mfor removing passwords from VBA projects: (https://github.com/outflanknl/EvilClippy)")
 
-            elif 'microsoft excel 2007' in file_type.lower():
-                print("\n\033[1m[ANALYSIS RECOMMENDATIONS]\033[0m\n")  
-
             elif '7-zip archive data' or 'zip archive' in file_type.lower():
                 print("\n\033[1m[ANALYSIS RECOMMENDATIONS]\033[0m\n\033[95mzipdump.py\033[0m for extracting zip archive components: (https://github.com/DidierStevens/DidierStevensSuite/blob/master/zipdump.py)")  
 
