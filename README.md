@@ -13,4 +13,4 @@ Pointman will guide you through the setup, including setting up a bash alias and
 
 `Pointman -f target_file -v`
 
-Verbose mode is better than normal mode :)
+Verbose mode is better than normal mode.
