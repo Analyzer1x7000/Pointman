@@ -1,5 +1,5 @@
 # Pointman
-Advanced file identification tool for Linux, written in Python. Inspired by TrID. Designed to assist incident responders.
+File identification tool for Linux, written in Python. Inspired by TrID. Designed to assist incident responders.
 
 Pointman will guide you through the setup, including setting up a bash alias and installing dependencies. 
 
